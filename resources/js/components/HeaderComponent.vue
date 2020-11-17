@@ -1,10 +1,10 @@
 <template>
-    <div class="sticky-top">
+    <div class="position-fixed w-100" style="z-index:400;" id="page_header">
         <top-notification-bar></top-notification-bar>
-        <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
+        <nav class="navbar navbar-expand-md">
             <div class="container">
                 <a class="navbar-brand" href="">
-                    <img src="/img/exlog_logo.jpg" alt="logo" style="max-height:50px;">
+                    <img src="/img/logo.png" alt="logo" style="max-height:50px;">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -19,12 +19,6 @@
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ml-auto">
                         <template v-if="guest">
-                            <!-- <li class="nav-item">
-                                <a class="nav-link" href="/login"> Login </a>
-                            </li>
-                            <li class="nav-item" v-if="hasRegister">
-                                <a class="nav-link" href="/register"> Register</a>
-                            </li> -->
                             <li class="nav-item">
                                 <a class="nav-link" href="/"> 
                                     Home
@@ -82,15 +76,20 @@
         border: 1pt solid white;
         margin-left: 20px;
         border-radius: 5px;
-        background-color: #ff7900;
+        background-color: #1a74bc;
         color: white !important;
         font-weight: bold;
     }
     .btn-tracking:hover{
-        border: 1pt solid #ff7900;
-        color: #ff7900 !important;
+        border: 1pt solid #1a74bc;
+        color: #1a74bc !important;
         background-color: white;
         box-shadow: 0 0 30px #261c6a54;
+    }
+    #page_header{
+        background-color: white;
+        /* background-color: rgba(255, 255, 255, 0.7);
+        background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0)); */
     }
     @media screen and (max-width: 767px) {
        nav.navbar .nav-item:hover a.nav-link{
@@ -114,6 +113,7 @@
 <script>
 let token = $('meta[name=csrf-token]').attr('content');
 import topNotificationBar from './utils/TopNotificationBar.vue';
+
 export default {
     props : {
         guest:Boolean,

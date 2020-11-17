@@ -1,5 +1,5 @@
 <template>
-    <div class="container-fluid bg-light" style="min-height: 300px; background-color:white !important;">
+    <div id="home_banner" class="container-fluid bg-light" style="min-height: 300px; background-color:white !important;">
         <div class="row justify-content-center">
             <div class="col-lg-7">
                 <div id="banText">
@@ -92,5 +92,9 @@ export default {
         return{
         }
     },
+    mounted(){
+        $bannerHeight = $('#home_banner').height();
+        console.log($$bannerHeight);
+    }
 }
 </script>
