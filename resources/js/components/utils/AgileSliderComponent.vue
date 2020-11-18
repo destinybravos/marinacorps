@@ -13,12 +13,12 @@
             autoplay="autoplay"  v-if="sliderType === 'containers'">
                 <div v-for="(imageSrc, index) in imageList" :key="index" class="slide slide-container"
                 :style="`background-image: url(${imageSrc.image})`">
-                    <section>
+                    <!-- <section>
                         <h2>{{ imageSrc.caption }}</h2>
                         <p>
                             {{ imageSrc.sub_caption }}
                         </p>
-                    </section>
+                    </section> -->
                 </div>
             </agile>
         <!-- End -->
@@ -57,10 +57,12 @@
 
     .slide {
     display: block;
-    height: 500px;
+    height: 100vh;
     -o-object-fit: cover;
         object-fit: cover;
     width: 100%;
+    max-width: 100%;
+    overflow: hidden;
     }
     .slide-container{
         /* min-height: 400px; */

@@ -87,9 +87,8 @@
         box-shadow: 0 0 30px #261c6a54;
     }
     #page_header{
-        background-color: white;
-        /* background-color: rgba(255, 255, 255, 0.7);
-        background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0)); */
+        background-color: rgba(0, 0, 0, 0.3);
+        background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0));
     }
     @media screen and (max-width: 767px) {
        nav.navbar .nav-item:hover a.nav-link{

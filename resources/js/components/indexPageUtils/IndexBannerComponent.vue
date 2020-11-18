@@ -93,8 +93,7 @@ export default {
         }
     },
     mounted(){
-        $bannerHeight = $('#home_banner').height();
-        console.log($$bannerHeight);
+        
     }
 }
 </script>

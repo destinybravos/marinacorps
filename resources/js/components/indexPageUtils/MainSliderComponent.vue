@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div style="max-width:100%; overflow:hidden;">
         <slider :image-list="images" :time-interval="9000" :slider-type="sliderType"></slider>
     </div>
 </template>

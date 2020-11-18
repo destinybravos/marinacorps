@@ -2,7 +2,7 @@
     <div class="container-fluid" id="banner" style="background-color:white !important;">
         <div class="row justify-content-left">
             <div class="col-md-4" id="text-side">
-                <div id="banText">
+                <div id="banText" class="py-5">
                     <h2>
                         <span v-for="(name, i) in pages" :key="i">
                             <span v-if="i == pageName">{{name}}</span>

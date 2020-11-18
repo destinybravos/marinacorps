@@ -12,11 +12,11 @@
 
     <!-- Extra Meta -->
     <!--    FACEBOOK / TWITTER -->
-    <meta property="og:title" content="Express Logistics and Courier Services">
+    <meta property="og:title" content="Marina Corps Logistics Services">
     <meta property="og:description" content="Flexible, fast and reliable services with imformation about the current status of your goods!">
-    <meta property="og:site_name" content="Express Logistics and Courier Services">
-    <meta property="og:image" content="https://exlogcourier.com/img/favicon.jpg">
-    <meta property="og:url" content="https://exlogcourier.com/">
+    <meta property="og:site_name" content="Marina Corps Logistics Services">
+    <meta property="og:image" content="https://corpcourier-marina.com/img/favicon.jpg">
+    <meta property="og:url" content="https://corpcourier-marina.com/">
     <meta name="twitter:card" content="summary_large_image">
 
 
