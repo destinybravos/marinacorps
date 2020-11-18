@@ -1,0 +1,123 @@
+<template>
+    <div>
+       <div class="container">
+            <div class="row">
+                <div class="col-md-6 py-5">
+                    <hr class="" style="border: 3px solid #1a74bc; width: 50px;">
+
+                    <h1 style="padding-bottom: 20px">
+                        <strong>WELCOME TO MARINA CORPS LOGISTICS</strong>
+                    </h1>
+                    <div style="color: light-gray;">
+                        <p>
+                            Our team of experienced supply chain professionals leverage on our unparalleled 
+                            distribution network with you from start to finish, designing and implementing your 
+                            unique supply chain model.
+                        </p>
+                        <p>
+                            Over 500 dedicated employees, working in over 46 locations around the country, 
+                            deliver operational excellence to provide viable answers to the most challenging supply 
+                            chain questions.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 py-5">
+                    <img src="/img/brokerage.jpg" alt=" " style="max-width:100%;">
+                </div>
+            </div>
+       </div>
+
+       <div class="container-fluid" id="atlas">
+           <div class="container">
+               <div class="row py-5 text-white">
+
+                   <div class="col-md-3">
+                        <div class="row">
+                            <div class="col-2 py-3">
+                                <font-awesome-icon icon="phone-alt" size="2x"></font-awesome-icon>
+                            </div>
+
+                            <div class="col-10">
+                                <h4>
+                                    <strong>CALL CENTER</strong>
+                                </h4>
+                                <p>
+                                    hg hhgf hhtg 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                   <div class="col-md-3">
+                        <div class="row">
+                            <div class="col-2 py-3">
+                                <font-awesome-icon icon="clock" size="2x"></font-awesome-icon>
+                            </div>
+                            <div class="col-10">
+                                <h4>
+                                    <strong>WORKING HOURS</strong>
+                                </h4>
+                                <p>
+                                    hg hhgf hhtg 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                   <div class="col-md-3">
+                        <div class="row">
+                            <div class="col-2 py-3">
+                                <font-awesome-icon icon="globe" size="2x"></font-awesome-icon>
+                            </div>
+                            <div class="col-10">
+                                <h4>
+                                    <strong>OUR LOCATION</strong>
+                                </h4>
+                                <p>
+                                    hg hhgf hhtg 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                   <div class="col-md-3">
+                        <div class="row">
+                            <div class="col-2 py-3">
+                                <font-awesome-icon icon="user-plus" size="2x"></font-awesome-icon>
+                            </div>
+                            <div class="col-10">
+                                <h4>
+                                    <strong>REGISTER AS A PARTNER</strong>
+                                </h4>
+                                <p>
+                                   Pay a deposit for your transactions with us and get discounted rates and 
+                                   faster deliveries <br>
+                                   <a href="#">Register</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+               </div>
+           </div>
+       </div>
+    </div>
+</template>
+
+
+<style scoped>
+    #atlas{
+        background-image: url('/img/atlas.png');
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        background-color: #1a74bc;
+        min-height: 300px;
+    }
+</style>
+
+
+<script>
+export default {
+    name: "IndexBannerComponent"
+}
+</script>

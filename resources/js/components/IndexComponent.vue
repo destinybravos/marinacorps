@@ -40,7 +40,7 @@
 
 <script>
 import MainSlider from '../components/indexPageUtils/MainSliderComponent.vue';
-import IndexBannerComponent from '../components/indexPageUtils/IndexBannerComponent.vue';
+import IndexBannerComponent from '../components/indexPageUtils/IndexBannerComponent2.vue';
 import IndexOfferCards from '../components/indexPageUtils/IndexOfferCards.vue';
 import OurWorkDecription from '../components/indexPageUtils/OurWorkDecription.vue';
 import ServiceStatistics from '../components/indexPageUtils/ServiceStatistic.vue';

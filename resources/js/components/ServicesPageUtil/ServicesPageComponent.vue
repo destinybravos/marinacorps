@@ -2,7 +2,7 @@
     <div id="services_page">
         <section>
             <h2 class="mt-5" data-aos="fade-up">  
-                EXPRESS LOGISTICS AND COURIER SERVICES
+                MARINA CORPS LOGISTICS SERVICES
             </h2>
             <p class="my-3" data-aos="fade-up">
                 For us moving your consignment from one destination to the other is equivalent to ensuring your 
@@ -18,7 +18,7 @@
                 <div class="col-md-6 service_details" data-aos="fade-up-left">
                     <h2>Air Freight</h2>
                     <p>
-                        Express logistics and courier service provides, top notch, hassle free and timely movement for all your consignments 
+                        Marina corps logistics service provides, top notch, hassle free and timely movement for all your consignments 
                         through our air Freight services at very 
                         competitive rates. We strive hard to ensure that you are ably guided through out the process that involves 
                         packing, document filing, clearance from customs, loading until the very last step of delivering. We are 
