@@ -4,7 +4,7 @@
             <div class="row my-5 mx-auto" id="top_stat_hd">
                 <div class="col-md-12" data-aos="fade-up">
                     <h2>
-                        Express Logistics and Courier Services
+                        Marina Corps Logistics Services
                     </h2>
                     <p>
                         We provide standard domestic and international parcel pick-up, delivery and return solutions 
