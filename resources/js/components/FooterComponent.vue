@@ -77,13 +77,13 @@
 
 <style scoped>
     #foot-component{
-        background-color: #261c6a;
+        background-color: #0d469c;
         color: white;
         padding: 20px 0;
     }
 
     #containerT{
-        background-color: #f57302;
+        background-color: #29abe1;
         padding: 20px 10px;
         border-radius: 10px 0 10px 0;
     }
@@ -99,13 +99,13 @@
         border: 1pt solid white;
         margin-left: 7px;
         border-radius: 5px;
-        background-color: #ff7900;
+        background-color: #0d469c;
         color: white !important;
         font-weight: bold;
     }
     .btn-tracking:hover{
-        border: 1pt solid #ff7900;
-        color: #ff7900 !important;
+        border: 1pt solid #0d469c;
+        color: #0d469c !important;
         background-color: white;
         box-shadow: 0 0 30px #261c6a54;
     }
@@ -122,12 +122,12 @@
     #trackInput{
         width: 500px;
         height: 40px;
-        background-color: #f57302;
+        background-color: #0d469c;
         color: white;
     }
     #trackBtn{
         height: 40px;
-        background-color: #f57302;
+        background-color: #0d469c;
         width: 100px;
         color:white;
     }

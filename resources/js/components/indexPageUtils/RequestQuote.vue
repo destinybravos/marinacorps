@@ -79,7 +79,7 @@
 
                     <div class="col-md-6">
                         <!-- Heading -->
-                        <div class="col-md-12 py-4" style="background-color:#ff7900;" data-aos="fade-left">
+                        <div class="col-md-12 py-4" style="background-color:#0d469c;" data-aos="fade-left">
                             <h3>GENERAL FAQ</h3>
                         </div>
                         <!-- FAQ -->

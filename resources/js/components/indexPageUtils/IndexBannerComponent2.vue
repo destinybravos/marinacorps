@@ -2,7 +2,7 @@
     <div>
        <div class="container">
             <div class="row">
-                <div class="col-md-6 py-5">
+                <div class="col-md-6 py-5"  data-aos="fade-left">
                     <hr class="" style="border: 3px solid #1a74bc; width: 50px;">
 
                     <h1 style="padding-bottom: 20px">
@@ -21,15 +21,15 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-md-6 py-5">
-                    <img src="/img/brokerage.jpg" alt=" " style="max-width:100%;">
+                <div class="col-md-6 py-5"  data-aos="fade-right">
+                    <img src="/img/postman1.jpg" alt=" " style="max-width:100%;">
                 </div>
             </div>
        </div>
 
        <div class="container-fluid" id="atlas">
            <div class="container">
-               <div class="row py-5 text-white">
+               <div class="row py-5 text-white"  data-aos="zoom-in">
 
                    <div class="col-md-3">
                         <div class="row">

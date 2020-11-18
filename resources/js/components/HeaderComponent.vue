@@ -7,7 +7,7 @@
                     <img src="/img/logo.png" alt="logo" style="max-height:50px;">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <font-awesome-icon icon="bars"></font-awesome-icon>
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -21,26 +21,37 @@
                         <template v-if="guest">
                             <li class="nav-item">
                                 <a class="nav-link" href="/"> 
+                                <font-awesome-icon icon="home"></font-awesome-icon>
                                     Home
                                 </a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="/about"> 
+                                <font-awesome-icon icon="info-circle"></font-awesome-icon>
                                     About
                                 </a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="/services"> 
+                                <font-awesome-icon icon="cogs"></font-awesome-icon>
                                     Services
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/tracking"> 
-                                    Tracking
+                                <a class="nav-link" href="#"> 
+                                    <font-awesome-icon icon="file-alt"></font-awesome-icon>
+                                    Apply for Leave
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"> 
+                                    <font-awesome-icon icon="phone-alt"></font-awesome-icon>
+                                    Call Cards
                                 </a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="/contact"> 
+                                <font-awesome-icon icon="headset"></font-awesome-icon>
                                     Contact
                                 </a>
                             </li>
@@ -85,6 +96,13 @@
         color: #1a74bc !important;
         background-color: white;
         box-shadow: 0 0 30px #261c6a54;
+    }
+    nav.navbar .nav-item:hover a.nav-link{
+        color: #261c6a;
+    }
+    nav.navbar .nav-item a.nav-link{
+        color: #1a74bc;
+        font-weight: bold;
     }
     #page_header{
         background-color: rgba(0, 0, 0, 0.3);

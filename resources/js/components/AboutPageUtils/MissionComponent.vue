@@ -5,13 +5,14 @@
                 <div class="col-md-7">
                     <div>
                         <h3 class="h3Text" data-aos="fade-right"> WE PROVIDE BEST <br> INTERNATIONAL FREIGHT &</h3>
-                        <h2 class="h2Text" data-aos="fade-right">EXPRESS LOGISTICS</h2>
+                        <h2 class="h2Text" data-aos="fade-right">EXPRESS LOGISTICS SERVICES</h2>
                     </div>
                     <div class="mt-4">
                         <div class="card shadow" data-aos="fade-right">
                             <div class="card-body shadw">
                                 <h5 class="h5Text">
-                                    Express Logistics Courier Services provide standard domestic and international parcel pick-up, delivery and return solutions for business customers and consumers
+                                    Marina Corps Logistics provide standard domestic and international parcel pick-up, 
+                                    delivery and return solutions for business customers and consumers
                                 </h5>
                             </div>
                         </div>
@@ -45,7 +46,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 mt-3" data-aos="fade-right">
-                        <img src="/img/warehouse_trucks.png" alt=" " style="max-width:100%;">
+                        <img src="/img/postman1.jpg" alt=" " style="max-width:100%;">
                     </div>
                     <div class="col-md-6 mt-3" data-aos="fade-left">
                         <div class="hdCaption">
@@ -98,7 +99,7 @@
     .h5Text{
         /* font-weight: bold; */
         font-size: 1.2em;
-        text-transform: uppercase;
+        /* text-transform: uppercase; */
         color: #3d3072;
         /* font-family: "Lucida Console", Monaco, monospace; */
         /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */

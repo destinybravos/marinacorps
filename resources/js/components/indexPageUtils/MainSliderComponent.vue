@@ -13,12 +13,12 @@ export default {
         return{
             images: [
                 {
-                    image: '/img/bg1.jpg', 
+                    image: '/img/ocean_shipping.jpg', 
                     caption:'Ocean Freight', 
                     sub_caption:'Express Logistics transport your bulky and gigantic cargo through water ways, eclipsing territories and regions.'
                 },
                 {
-                    image: '/img/warehouse_trucks.png', 
+                    image: '/img/warehouse_trucks.jpg', 
                     caption:'Logistics Management',
                     sub_caption:'For us, moving your consignment from one destination to the other is equivalent to ensuring your reputation, travels far and wide, unblemished.'
                 },
