@@ -1,31 +1,33 @@
 <template>
     <div>
-       <div class="container">
-            <div class="row">
-                <div class="col-md-6 py-5"  data-aos="fade-left">
-                    <hr class="" style="border: 3px solid #1a74bc; width: 50px;">
+        <div class="container-fluid">
+            <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 py-5"  data-aos="fade-left">
+                            <hr class="" style="border: 3px solid #1a74bc; width: 50px;">
 
-                    <h1 style="padding-bottom: 20px">
-                        <strong>WELCOME TO MARINA CORPS LOGISTICS</strong>
-                    </h1>
-                    <div style="color: light-gray;">
-                        <p>
-                            Our team of experienced supply chain professionals leverage on our unparalleled 
-                            distribution network with you from start to finish, designing and implementing your 
-                            unique supply chain model.
-                        </p>
-                        <p>
-                            Over 500 dedicated employees, working in over 46 locations around the country, 
-                            deliver operational excellence to provide viable answers to the most challenging supply 
-                            chain questions.
-                        </p>
+                            <h1 style="padding-bottom: 20px">
+                                <strong>WELCOME TO MARINA CORPS LOGISTICS</strong>
+                            </h1>
+                            <div style="color: light-gray;">
+                                <p>
+                                    Our team of experienced supply chain professionals leverage on our unparalleled 
+                                    distribution network with you from start to finish, designing and implementing your 
+                                    unique supply chain model.
+                                </p>
+                                <p>
+                                    Over 500 dedicated employees, working in over 46 locations around the country, 
+                                    deliver operational excellence to provide viable answers to the most challenging supply 
+                                    chain questions.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 py-5"  data-aos="fade-right">
+                            <img src="/img/postman1.jpg" alt=" " style="max-width:100%;">
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-6 py-5"  data-aos="fade-right">
-                    <img src="/img/postman1.jpg" alt=" " style="max-width:100%;">
-                </div>
             </div>
-       </div>
+        </div>
 
        <div class="container-fluid" id="atlas">
            <div class="container">

@@ -7,7 +7,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>Express Logistics and Courier</title>
+    <title>ADMIN:: Marina Corps Logistics</title>
     <link rel="shortcut icon" href="{{ asset('img/favicon.jpg') }}" type="image/x-icon">
 
     <!-- Extra Meta -->

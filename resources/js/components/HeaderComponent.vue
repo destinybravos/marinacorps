@@ -1,7 +1,7 @@
 <template>
-    <div class="position-fixed w-100" style="z-index:400;" id="page_header">
+    <div class="sticky-top shadow-sm bg-white" style="z-index:400;" id="page_header">
         <top-notification-bar></top-notification-bar>
-        <nav class="navbar navbar-expand-md">
+        <nav class="navbar navbar-expand-md"> 
             <div class="container">
                 <a class="navbar-brand" href="">
                     <img src="/img/logo.png" alt="logo" style="max-height:50px;">
@@ -103,10 +103,6 @@
     nav.navbar .nav-item a.nav-link{
         color: #1a74bc;
         font-weight: bold;
-    }
-    #page_header{
-        background-color: rgba(0, 0, 0, 0.3);
-        background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0));
     }
     @media screen and (max-width: 767px) {
        nav.navbar .nav-item:hover a.nav-link{

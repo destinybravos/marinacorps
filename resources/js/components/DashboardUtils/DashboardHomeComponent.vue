@@ -5,7 +5,7 @@
                 <div class="col-md-12">
                     <h2>
                         <font-awesome-icon icon="tachometer-alt" />
-                        EXLog. Dashboard
+                        Marina-Corps Dashboard
                     </h2>
                 </div>
             </div>
@@ -64,13 +64,13 @@
 
 <style scoped>
     .top_page_hd{
-        background-color: #ff8929;
+        background-color: #1a74bc;
     }
     .top_page_hd h2{
         font-weight: bold;
         font-size: 1.3rem;
         color: white;
-        text-shadow: 0 0 12px #e96901;
+        /* text-shadow: 0 0 12px #e96901; */
     }
 </style>
 
