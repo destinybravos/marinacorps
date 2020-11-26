@@ -35,4 +35,9 @@ class PageController extends Controller
     {
         return view('trackinginput');
     }
+
+    public function apply()
+    {
+        return view('apply');
+    }
 }

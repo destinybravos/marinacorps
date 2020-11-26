@@ -38,7 +38,7 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#"> 
+                                <a class="nav-link" href="/apply-leave"> 
                                     <font-awesome-icon icon="file-alt"></font-awesome-icon>
                                     Apply for Leave
                                 </a>

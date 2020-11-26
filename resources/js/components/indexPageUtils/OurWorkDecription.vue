@@ -10,7 +10,7 @@
                             Trust Our Dedicated Services & Expansive Network Encompassing Road, Rail, Air and Ocean!
                         </li>
                         <li>
-                            Express Logistics is built strongly with 97+ families and we work towards customer’s satisfaction.
+                            Marina Corps Logistics is built strongly with 97+ families and we work towards customer’s satisfaction.
                         </li>
                     </ul>
 

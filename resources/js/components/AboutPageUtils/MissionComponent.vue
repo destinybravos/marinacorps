@@ -53,10 +53,10 @@
                             <h1>Our Mission</h1>
                         </div>
                         <p class="mt-3 pText text-light">
-                            As a leading provider of air transportation, Express Logistics and Courier is here to provide you a fast delivery service down to your door steps.
+                            As a leading provider of air transportation, Marina Corps Logistics Services is here to provide you a fast delivery service down to your door steps.
                         </p>
                         <p class="mt-3 pText text-light">
-                            Backed by our strong group network and experience, Express Logistics Courier Services offer a full range of cross-border shipping services covering more than 220 countries across the globe.
+                            Backed by our strong group network and experience, Marina Corps Logistics Services offer a full range of cross-border shipping services covering more than 220 countries across the globe.
                         </p>
                     </div>
                 </div>
@@ -70,7 +70,7 @@
                             From Packages to Pallets, whether you need a document rushed across town or an urgent part delivered to your plant.
                         </p>
                         <p class="mt-3 pText text-light">
-                            Express Logistics Courier Services offers a wide range of delivery options that will meet any budget. No distance is too far and no job is too big.
+                            Marina Corps Logistics Services offers a wide range of delivery options that will meet any budget. No distance is too far and no job is too big.
                         </p>
                     </div>
                     <div class="col-md-6" data-aos="fade-left">

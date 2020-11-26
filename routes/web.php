@@ -19,6 +19,7 @@ Route::get('/about', 'PageController@about')->name('about');
 Route::get('/contact', 'PageController@contact')->name('contact');
 Route::get('/services', 'PageController@services')->name('services');
 Route::get('/tracking', 'PageController@tracking')->name('tracking');
+Route::get('/apply-leave', 'PageController@apply')->name('apply');
 Route::get('/trackinginput', 'PageController@trackinginput')->name('trackinginput');
 
 Auth::routes();
