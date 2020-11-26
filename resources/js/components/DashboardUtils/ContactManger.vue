@@ -19,8 +19,9 @@
                         <div class="form-group">
                             <label for="sender">Sender Email</label>
                             <select name="sender" id="sender" class="form-control" v-model="sender" required>
-                                <option value="support@exlogcourier.com" selected>support@exlogcourier.com</option>
+                                <option value="support@exlogcourier.com">support@exlogcourier.com</option>
                                 <option value="info@exlogcourier.com">info@exlogcourier.com</option>
+                                <option value="admin@marinacorps.com" selected>admin@marinacorps.com</option>
                             </select>
                         </div>
                         <div class="form-group">
@@ -143,13 +144,13 @@ export default {
 
 <style scoped>
     .top_page_hd{
-        background-color: #ff8929;
+        background-color: #1a74bc;
     }
     .top_page_hd h2{
         font-weight: bold;
         font-size: 1.3rem;
         color: white;
-        text-shadow: 0 0 12px #e96901;
+        text-shadow: 0 0 12px #1a74bc;
     }
 </style>
 <style>

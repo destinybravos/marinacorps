@@ -43,6 +43,7 @@
         width: 250px;
         height: 100vh;
         background-color: #261c6a;
+        /* background-color: #261c6a; */
         left: 0;
         color: white;
         transition: all 0.3s linear;
