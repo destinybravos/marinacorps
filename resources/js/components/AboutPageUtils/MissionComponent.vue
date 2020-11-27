@@ -1,18 +1,33 @@
 <template>
     <div>
-        <div class="container mainContainer">
+        <div class="container">
             <div class="row">
                 <div class="col-md-7">
                     <div>
                         <h3 class="h3Text" data-aos="fade-right"> WE PROVIDE BEST <br> INTERNATIONAL FREIGHT &</h3>
-                        <h2 class="h2Text" data-aos="fade-right">EXPRESS LOGISTICS SERVICES</h2>
+                        <h2 class="h2Text" data-aos="fade-right">LOGISTICS SERVICES</h2>
                     </div>
                     <div class="mt-4">
                         <div class="card shadow" data-aos="fade-right">
                             <div class="card-body shadw">
                                 <h5 class="h5Text">
+                                    <p>
                                     Marina Corps Logistics provide standard domestic and international parcel pick-up, 
-                                    delivery and return solutions for business customers and consumers
+                                    delivery and return solutions for business customers and consumers. We are 
+                                    international forwarder specialized in managing your shipments from one 
+                                    destination to another. We design and implement industry-leading solutions 
+                                    together with our worldwide network of partners.
+                                    </p>
+                                    <p>
+                                        With over 100+ dedicated employees, working around the globe,
+                                         we deliver operational excellence to provide viable solutions to the most 
+                                         challenging supply chain questions.
+                                    </p>
+                                    <p>
+                                        Our focus on providing excellence and value to our customers is made possible 
+                                        by our team of experts who bring passion to their work. We are totally committed 
+                                        to meeting and exceeding our customer’s expectations.
+                                    </p>
                                 </h5>
                             </div>
                         </div>
