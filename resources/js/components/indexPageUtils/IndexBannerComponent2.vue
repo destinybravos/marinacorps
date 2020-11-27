@@ -76,7 +76,13 @@
                                     <strong>OUR LOCATION</strong>
                                 </h4>
                                 <p>
-                                    hg hhgf hhtg 
+                                    China, South Korea<br>
+                                    Singapore, Switzerland  <br>
+                                    Canada, United States <br>
+                                    Paris, France <br>
+                                    Osio, Norway <br>
+                                    Frankfurt, Germany <br>
+                                    Phillipine
                                 </p>
                             </div>
                         </div>

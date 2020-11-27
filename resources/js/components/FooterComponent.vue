@@ -28,7 +28,7 @@
                     <div class="col-md-5"  data-aos="fade-up">
                         <!-- <h5 id="contAside"><font-awesome-icon icon="shipping-fast"  /> EXPRESS LOGISTICS </h5> -->
                         <img src="/img/logo_white.png" alt=" " style="max-width:100%; max-height:70px;" class="mb-4">
-                        <p>As a leading provider of air transportation, Express Logistics and Courier is your #1
+                        <p>As a leading provider of air transportation, Marina Corps Logistics is your #1
                         source for expedited international automobile shopping.</p>
                         <p>with services to over 150 countries worldwide,
                         we have the resources and expertise to facilitate your international shipment and make the delivery as simple as possbile.</p>
@@ -55,7 +55,8 @@
                             Canada, United States <br>
                             Paris, France <br>
                             Osio, Norway <br>
-                            Frankfurt, Germany
+                            Frankfurt, Germany <br>
+                            Phillipine
 
 
                         </p>
@@ -65,8 +66,7 @@
                         <h5 style="font-weight:bolder;">CONTACT DETAILS</h5>
                         <p>
                             Deanshanger, Milton Keynes MK19 6HT, UK<br>
-                            Email: support@exlogcourier.com<br>
-                            Email: info@exlogcourier.com<br>
+                            Email: support@corpcourier-marina.com<br>
                             Call:  +44 7520635476 
                         </p>
                     </div>

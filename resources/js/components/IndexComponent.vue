@@ -80,7 +80,7 @@ export default {
         /* font-weight: bold; */
         font-size: 1.2em;
         text-transform: uppercase;
-        color: #3d3072;
+        color: #1a74bc;
         /* font-family: "Lucida Console", Monaco, monospace; */
         /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
     }
@@ -105,7 +105,7 @@ export default {
     }
     .h1Text{
         font-weight: bolder;
-        color: #3d3072;
+        color: #1a74bc;
     }
     h5 span{
         font-weight: bold;
@@ -122,7 +122,7 @@ export default {
         margin-top: 5px;
     }
     .hdCaption{
-        background-color: #fa992b;
+        background-color: #1a74bc;
         padding: 7px 10px;
         color: #fff;
     }

@@ -3,7 +3,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-7">
-                    <div>
+                    <div class="mt-5">
                         <h3 class="h3Text" data-aos="fade-right"> WE PROVIDE BEST <br> INTERNATIONAL FREIGHT &</h3>
                         <h2 class="h2Text" data-aos="fade-right">LOGISTICS SERVICES</h2>
                     </div>
@@ -19,7 +19,7 @@
                                     together with our worldwide network of partners.
                                     </p>
                                     <p>
-                                        With over 100+ dedicated employees, working around the globe,
+                                        With over 500 dedicated employees, working around the globe,
                                          we deliver operational excellence to provide viable solutions to the most 
                                          challenging supply chain questions.
                                     </p>
@@ -147,7 +147,8 @@
     }
     #our-work-desc{
         min-height: 300px;
-        background-image: url('/img/shapes-dark.jpg');
+        background-color: #1a74bc;
+        /* background-image: url('/img/shapes-dark.jpg'); */
         background-size: cover;
         background-position: center;
         padding: 5vh 0;
@@ -157,7 +158,7 @@
         margin-top: 5px;
     }
     .hdCaption{
-        background-color: #fa992b;
+        background-color: #261c6a;
         padding: 7px 10px;
         color: #fff;
     }
