@@ -38,7 +38,7 @@
     }
 
     #text-side{
-        background-color: #261c6ae3;
+        background-color: #1a73bcb6;
         clip-path: polygon(0% 100%, 0% 0%, 100% 0%, 80% 100%);
     }
     
@@ -65,6 +65,7 @@ export default {
                 contact : 'Our Contact Channels',
                 gallery : 'Express Services',
                 tracking : 'Parcel Status Details',
+                leave : 'Apply for Leave'
             },
         }
     },

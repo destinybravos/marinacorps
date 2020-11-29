@@ -44,12 +44,6 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#"> 
-                                    <font-awesome-icon icon="phone-alt"></font-awesome-icon>
-                                    Call Cards
-                                </a>
-                            </li>
-                            <li class="nav-item">
                                 <a class="nav-link" href="/contact"> 
                                 <font-awesome-icon icon="headset"></font-awesome-icon>
                                     Contact

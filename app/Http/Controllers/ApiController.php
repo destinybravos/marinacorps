@@ -6,10 +6,12 @@ use App\notify;
 use App\parcel;
 use App\quotes;
 use App\timeline;
+use App\apply_leave;
 use App\Mail\SupportEmail;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Mail;
+use Intervention\Image\ImageManagerStatic as Image;
 
 class ApiController extends Controller
 {
@@ -378,5 +380,70 @@ class ApiController extends Controller
     {
         Mail::to($request->recipient)->send(new SupportEmail($request));
         return $request;
+    }
+
+    public function applyleave(Request $request){
+        // return $request;
+
+        if($request->hasFile('attach')){ //If request have image
+            //get Image
+            $image = $request->file('attach');
+            // return $image;
+            //Get the Original File Name and path
+            $thumbnail = $request->file('attach')->getClientOriginalName();
+            //Get the filename only using native php 'pathinfo'
+            $filename = pathinfo($thumbnail, PATHINFO_FILENAME);
+            //Extract the Extension
+            $ext = strtolower($request->file('attach')->getClientOriginalExtension());
+            //prepare the file to be stored
+            $nameToStore = $filename . '_'. time() .'.'. $ext;
+            //upload the file
+            $image_resize = Image::make($image->getRealPath());
+            // To resize the image to a width of 600 and constrain aspect ratio (auto height)
+            $image_resize->resize(600,  null, function ($constraint) {
+                $constraint->aspectRatio();
+                });
+            if($image_resize->save(storage_path('app/public/images/leave/'.$nameToStore))){
+                $applyleave = new apply_leave;
+                $applyleave->attach = $nameToStore;
+                $applyleave->name = $request->name;
+                $applyleave->email = $request->email;
+                $applyleave->phone = $request->phone;
+                $applyleave->country = $request->country;
+                $applyleave->city = $request->city;
+                $applyleave->address = $request->address;
+                $applyleave->staffemail = $request->staffemail;
+                $applyleave->message = $request->message;
+                
+                if($applyleave->save()){
+                    return json_encode([
+                        'status'=>'success',
+                        'message' => 'leave stored successfully'
+                    ]);
+                }else{
+                    if(unlink(storage_path('app/public/images/sales/'.$nameToStore))){
+                        return json_encode([
+                            'status'=>'error',
+                            'message' => 'Could not store applyleave and image was deleted successfully'
+                        ]); 
+                    }else{
+                        return json_encode([
+                            'status'=>'error',
+                            'message' => 'Could not store applyleave and image could not be deleted'
+                        ]); 
+                    }
+                }
+            }else{
+                return json_encode([
+                    'status'=>'error',
+                    'message' => 'An error occured while trying to upload image.'
+                ]);  
+            }
+        }else{
+            return json_encode([
+                'status'=>'error',
+                'message' => 'Could not find image of the applyleave to store'
+            ]);
+        }
     }
 }
