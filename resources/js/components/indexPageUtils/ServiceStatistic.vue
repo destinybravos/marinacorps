@@ -48,7 +48,7 @@
         text-align: center;
     }
     #top_stat_hd h2{
-        color: #261c6a;
+        color: #1a74bc;
         font-weight: bolder;
     }
     #top_stat_hd p{

@@ -1,18 +1,33 @@
 <template>
     <div>
-        <div class="container mainContainer">
+        <div class="container">
             <div class="row">
                 <div class="col-md-7">
-                    <div>
+                    <div class="mt-5">
                         <h3 class="h3Text" data-aos="fade-right"> WE PROVIDE BEST <br> INTERNATIONAL FREIGHT &</h3>
-                        <h2 class="h2Text" data-aos="fade-right">EXPRESS LOGISTICS SERVICES</h2>
+                        <h2 class="h2Text" data-aos="fade-right">LOGISTICS SERVICES</h2>
                     </div>
                     <div class="mt-4">
                         <div class="card shadow" data-aos="fade-right">
                             <div class="card-body shadw">
                                 <h5 class="h5Text">
+                                    <p>
                                     Marina Corps Logistics provide standard domestic and international parcel pick-up, 
-                                    delivery and return solutions for business customers and consumers
+                                    delivery and return solutions for business customers and consumers. We are 
+                                    international forwarder specialized in managing your shipments from one 
+                                    destination to another. We design and implement industry-leading solutions 
+                                    together with our worldwide network of partners.
+                                    </p>
+                                    <p>
+                                        With over 500 dedicated employees, working around the globe,
+                                         we deliver operational excellence to provide viable solutions to the most 
+                                         challenging supply chain questions.
+                                    </p>
+                                    <p>
+                                        Our focus on providing excellence and value to our customers is made possible 
+                                        by our team of experts who bring passion to their work. We are totally committed 
+                                        to meeting and exceeding our customer’s expectations.
+                                    </p>
                                 </h5>
                             </div>
                         </div>
@@ -53,10 +68,10 @@
                             <h1>Our Mission</h1>
                         </div>
                         <p class="mt-3 pText text-light">
-                            As a leading provider of air transportation, Express Logistics and Courier is here to provide you a fast delivery service down to your door steps.
+                            As a leading provider of air transportation, Marina Corps Logistics Services is here to provide you a fast delivery service down to your door steps.
                         </p>
                         <p class="mt-3 pText text-light">
-                            Backed by our strong group network and experience, Express Logistics Courier Services offer a full range of cross-border shipping services covering more than 220 countries across the globe.
+                            Backed by our strong group network and experience, Marina Corps Logistics Services offer a full range of cross-border shipping services covering more than 220 countries across the globe.
                         </p>
                     </div>
                 </div>
@@ -70,7 +85,7 @@
                             From Packages to Pallets, whether you need a document rushed across town or an urgent part delivered to your plant.
                         </p>
                         <p class="mt-3 pText text-light">
-                            Express Logistics Courier Services offers a wide range of delivery options that will meet any budget. No distance is too far and no job is too big.
+                            Marina Corps Logistics Services offers a wide range of delivery options that will meet any budget. No distance is too far and no job is too big.
                         </p>
                     </div>
                     <div class="col-md-6" data-aos="fade-left">
@@ -132,7 +147,8 @@
     }
     #our-work-desc{
         min-height: 300px;
-        background-image: url('/img/shapes-dark.jpg');
+        background-color: #1a74bc;
+        /* background-image: url('/img/shapes-dark.jpg'); */
         background-size: cover;
         background-position: center;
         padding: 5vh 0;
@@ -142,9 +158,9 @@
         margin-top: 5px;
     }
     .hdCaption{
-        background-color: #fa992b;
+        background-color: #ffffff;
         padding: 7px 10px;
-        color: #fff;
+        color: #1a74bc;
     }
     .lastDivP{
         /* font-family: "Trebuchet MS", Helvetica, sans-serif; */
