@@ -95,7 +95,7 @@
     #index-offer-card h2{
         font-weight: 900;
         /* font-size: 2.5rem; */
-        color:#261c6a;
+        color:#1a74bc;
         text-align: center;
     }
     #index-offer-card section p{
@@ -126,26 +126,26 @@
     }
     .card-title{
         font-weight: 900;
-        color:#261c6a;
+        color:#1a74bc;
     }
     .card:hover .card-title, .card:hover .card p{
-        color: #25129c;
+        color: #1a74bc;
     }
     .card:hover #btn-action{
         color: #fff;
-        background-color:  #25129c;
+        background-color:  #1a74bc;
     }
     #index-offer-card .card p{
         text-align:center; font-size:1rem;
-        color: #181146;
+        color: #1a74bc;
     }
     #btn-action{
         box-shadow: 0 15px 15px -15px rgba(78,34,208,0.7),0 15px 35px -15px rgba(12,5,62,0.3);
         outline: none;
         background-color: #fff;
-        color:  #25129c;
+        color:  #1a74bc;
         border-radius: 50px;
-        border: 2px solid #25129c;
+        border: 2px solid #1a74bc;
         padding: 0.5rem 1.3rem;
         font-size: 1rem;
     }

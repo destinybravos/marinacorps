@@ -56,18 +56,18 @@
                             Paris, France <br>
                             Osio, Norway <br>
                             Frankfurt, Germany <br>
-                            Phillipine
-
-
+                            Philippine, Italy
                         </p>
 
                     </div>
                     <div class="col-md-3"  data-aos="fade-up">
                         <h5 style="font-weight:bolder;">CONTACT DETAILS</h5>
                         <p>
-                            Deanshanger, Milton Keynes MK19 6HT, UK<br>
-                            Email: support@corpcourier-marina.com<br>
-                            Call:  +44 7520635476 
+                           Maximilianstrasse 35a, Regus <br>
+                           Maximilianstrasse GmBH & co.KG, 80539 Munich <br>
+                        </p>
+                        <p>
+                            Email: support@corpcourier-marina.com
                         </p>
                     </div>
             </div>

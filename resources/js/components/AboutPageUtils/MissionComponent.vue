@@ -158,9 +158,9 @@
         margin-top: 5px;
     }
     .hdCaption{
-        background-color: #261c6a;
+        background-color: #ffffff;
         padding: 7px 10px;
-        color: #fff;
+        color: #1a74bc;
     }
     .lastDivP{
         /* font-family: "Trebuchet MS", Helvetica, sans-serif; */

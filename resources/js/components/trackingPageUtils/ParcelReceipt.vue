@@ -3,7 +3,7 @@
         <div class="container">
             <div class="row" style="text-align:center; padding:50px 0 30px; color:#261c6a;">
                 <div class="col-md-12" id="trackText">
-                    <h2>EXPRESS LOGISTICS COURIER</h2>
+                    <h2>MARINA CORPS LOGISTICS</h2>
                     <h2>WAYBILL RECEIPT</h2>
                 </div>
             </div>
@@ -89,7 +89,7 @@
                                 </tr>
                                 <tr>
                                     <td>Origin</td>
-                                    <td><b>Express Logistics</b></td>
+                                    <td><b>Marina Corps</b></td>
                                 </tr>
                             </tbody>
                         </table>
@@ -194,8 +194,8 @@
             <div class="row mt-5">
                 <div class="col-md-12">
                     <div class="card-body">
-                        <p class="formateP">Thanks for shipping with Express Logistics Courier Service</p>
-                        <p class="formateP">www.exlogcourier.com</p>
+                        <p class="formateP">Thanks for shipping with Marina Corps Logistics and Courier Service</p>
+                        <p class="formateP">https://corpcourier-marina.com</p>
                     </div>
                 </div>
             </div>

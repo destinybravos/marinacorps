@@ -41,10 +41,12 @@
 
                             <div class="col-10">
                                 <h4>
-                                    <strong>CALL CENTER</strong>
+                                    <strong>ONLINE SERVICES</strong>
                                 </h4>
                                 <p>
-                                    hg hhgf hhtg 
+                                    Our online services are available 24/7.
+                                    Kindly reach us via email 
+                                    <a href="mailto:support@corpcourier-marina.com" class="anchor">support@corpcourier-marina.com</a> 
                                 </p>
                             </div>
                         </div>
@@ -60,7 +62,12 @@
                                     <strong>WORKING HOURS</strong>
                                 </h4>
                                 <p>
-                                    hg hhgf hhtg 
+                                    Monday - 8am to 7pm <br> 
+                                    Tuesday - 8am to 7pm  <br>
+                                    Wednesday - 8am to 7pm <br>
+                                    Thursday - 8am to 7pm <br>
+                                    Friday - 8am to 7pm <br>
+                                    Saturday - 8am to 5pm  
                                 </p>
                             </div>
                         </div>
@@ -82,7 +89,7 @@
                                     Paris, France <br>
                                     Osio, Norway <br>
                                     Frankfurt, Germany <br>
-                                    Phillipine
+                                    Philippine, Italy
                                 </p>
                             </div>
                         </div>
@@ -100,7 +107,7 @@
                                 <p>
                                    Pay a deposit for your transactions with us and get discounted rates and 
                                    faster deliveries <br>
-                                   <a href="#">Register</a>
+                                   <a href="#" class="anchor">Register</a>
                                 </p>
                             </div>
                         </div>
@@ -120,6 +127,10 @@
         background-attachment: fixed;
         background-color: #1a74bc;
         min-height: 300px;
+    }
+    .anchor{
+        color: white;
+        font-style: italic;
     }
 </style>
 
