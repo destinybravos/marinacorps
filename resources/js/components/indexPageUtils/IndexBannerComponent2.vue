@@ -33,7 +33,7 @@
            <div class="container">
                <div class="row py-5 text-white"  data-aos="zoom-in">
 
-                   <div class="col-md-3">
+                   <div class="col-md-6 col-lg-3 mb-3">
                         <div class="row">
                             <div class="col-2 py-3">
                                 <font-awesome-icon icon="phone-alt" size="2x"></font-awesome-icon>
@@ -52,7 +52,7 @@
                         </div>
                     </div>
 
-                   <div class="col-md-3">
+                   <div class="col-md-6 col-lg-3 mb-3">
                         <div class="row">
                             <div class="col-2 py-3">
                                 <font-awesome-icon icon="clock" size="2x"></font-awesome-icon>
@@ -73,7 +73,7 @@
                         </div>
                     </div>
 
-                   <div class="col-md-3">
+                   <div class="col-md-6 col-lg-3 mb-3">
                         <div class="row">
                             <div class="col-2 py-3">
                                 <font-awesome-icon icon="globe" size="2x"></font-awesome-icon>
@@ -95,7 +95,7 @@
                         </div>
                     </div>
 
-                   <div class="col-md-3">
+                   <div class="col-md-6 col-lg-3 mb-3">
                         <div class="row">
                             <div class="col-2 py-3">
                                 <font-awesome-icon icon="user-plus" size="2x"></font-awesome-icon>

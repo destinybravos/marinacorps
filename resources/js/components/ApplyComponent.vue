@@ -10,8 +10,26 @@
         <div class="container mt-5">
             <div class="row mt-5 mb-5">
                 <div class="col-md-12 shadow">
-                    <h2 class="text-center mt-3 mb-3">Fill the Form Below</h2>
-                    <form method="post" name="form_apply_leave" id="form_apply_leave" @submit.prevent="saveLeave()">
+                    <h2 class="text-center mt-5 mb-3"><strong> APPLY FOR |LEAVE |RETIREMENT </strong></h2>
+                    <p class="mx-lg-3 py-3 px-lg-5 px-2 bg-primary text-white">
+                        <strong>MAKE SURE YOU FILL THE FORM CORRECTLY!</strong> State employees hired for permanent 
+                        employment are entitled to a maximum of 60 days (480 hours) of paid military leave as follows:
+                        <ul>
+                            <li>
+                                Members of the National Guard or any of the federal armed services reserve 
+                                components are permitted up to 30 days (240 hours) of paid military leave for 
+                                eligible activities.
+                            </li>
+                            <li>
+                                Employees who are called or ordered to active duty by proper federal authority 
+                                are permitted up to an additional 30 days (240 hours) of paid military leave for 
+                                eligible activities.
+                            </li>
+                        </ul>
+
+
+                    </p>
+                    <form method="post" class="mx-3" name="form_apply_leave" id="form_apply_leave" @submit.prevent="saveLeave()">
                         <div class="row">
                             <div class="form-group col-sm-6">
                                 <label for="name"><strong>Name</strong></label>
@@ -46,26 +64,31 @@
                         </div>
 
                         <div class="row">
-                            <div class="form-group col-sm-6">
-                                  <label for="staffemail"><strong>Staff-Email</strong></label>
-                                  <input type="email" id="staffemail" class="form-control staffemail" v-model="staffemail">
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label for="staffemail"><strong>Staff-Email</strong></label>
+                                    <input type="email" id="staffemail" class="form-control staffemail" v-model="staffemail">
+                                </div>
+                                <div class="form-group">
+                                    <label for="attach"><strong>Attachment</strong></label>
+                                    <input type="file" id="attach" class="form-control attach" required>
+                                </div>
                             </div>
-                            <div class="form-group col-sm-6">
-                                 <label for="msg"><strong>Message</strong></label>
-                                 <input type="text" id="msg" class="form-control msg" v-model="message">
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label for="msg"><strong>Message</strong></label>
+                                    <textarea type="text" id="msg" rows="4" class="form-control msg" v-model="message"></textarea>
+                                </div>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="form-group col-sm-6">
-                                  <label for="attach"><strong>Attachment</strong></label>
-                                  <input type="file" id="attach" class="form-control attach" required>
                             </div>
                             <div class="form-group col-sm-6">
                                  <input type="checkbox" id="agree" required v-model="agree">
                                  <label for="agree">I agree to the <a href="#">Terms and Conditions</a></label><br>
                                  <button class="btn btn-primary float-right" type="submit" id="btn-apply">APPLY</button>
-
                             </div>
                         </div>
                     </form>

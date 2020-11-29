@@ -25,7 +25,7 @@
             <!--  -->
 
             <div class="row my-2" >
-                    <div class="col-md-5"  data-aos="fade-up">
+                    <div class="col-lg-5 col-md-12 col-sm-12 mb-3"  data-aos="fade-up">
                         <!-- <h5 id="contAside"><font-awesome-icon icon="shipping-fast"  /> EXPRESS LOGISTICS </h5> -->
                         <img src="/img/logo_white.png" alt=" " style="max-width:100%; max-height:70px;" class="mb-4">
                         <p>As a leading provider of air transportation, Marina Corps Logistics is your #1
@@ -34,7 +34,7 @@
                         we have the resources and expertise to facilitate your international shipment and make the delivery as simple as possbile.</p>
 
                     </div>
-                    <div class="col-md-2"  data-aos="fade-up">
+                    <div class="col-lg-2 col-md-6 col-sm-12 mb-3"  data-aos="fade-up">
                         <h5 style="font-weight:bold;">SERVICES</h5>
                         <p>
                             Sea Freight <br>
@@ -47,7 +47,7 @@
                         </p>
 
                     </div>
-                    <div class="col-md-2"  data-aos="fade-up">
+                    <div class="col-lg-2 col-md-6 col-sm-12 mb-3"  data-aos="fade-up">
                         <h5 style="font-weight:bolder;">DESTINATION</h5>
                         <p>
                             China, South Korea<br>
@@ -60,7 +60,7 @@
                         </p>
 
                     </div>
-                    <div class="col-md-3"  data-aos="fade-up">
+                    <div class="col-lg-3 col-md-12 col-sm-12 mb-3"  data-aos="fade-up">
                         <h5 style="font-weight:bolder;">CONTACT DETAILS</h5>
                         <p>
                            Maximilianstrasse 35a, Regus <br>
