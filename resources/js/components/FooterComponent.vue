@@ -65,9 +65,9 @@
                     <div class="col-md-3"  data-aos="fade-up">
                         <h5 style="font-weight:bolder;">CONTACT DETAILS</h5>
                         <p>
-                            Deanshanger, Milton Keynes MK19 6HT, UK<br>
+                           Maximilianstrasse 35a, Regus <br>
+                           Maximilianstrasse GmBH & co.KG, 80539 Munich <br>
                             Email: support@corpcourier-marina.com<br>
-                            Call:  +44 7520635476 
                         </p>
                     </div>
             </div>

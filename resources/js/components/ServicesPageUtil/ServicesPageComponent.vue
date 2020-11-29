@@ -145,7 +145,7 @@ export default {
     #services_page h2{
         font-weight: 900;
         /* font-size: 2.5rem; */
-        color:#261c6a;
+        color:#1a74bc;
         text-align: center;
     }
     #services_page section p{
