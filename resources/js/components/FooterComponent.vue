@@ -56,9 +56,7 @@
                             Paris, France <br>
                             Osio, Norway <br>
                             Frankfurt, Germany <br>
-                            Phillipine
-
-
+                            Philippine, Italy
                         </p>
 
                     </div>
@@ -67,7 +65,9 @@
                         <p>
                            Maximilianstrasse 35a, Regus <br>
                            Maximilianstrasse GmBH & co.KG, 80539 Munich <br>
-                            Email: support@corpcourier-marina.com<br>
+                        </p>
+                        <p>
+                            Email: support@corpcourier-marina.com
                         </p>
                     </div>
             </div>

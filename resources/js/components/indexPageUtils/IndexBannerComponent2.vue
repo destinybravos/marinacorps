@@ -67,7 +67,7 @@
                                     Wednesday - 8am to 7pm <br>
                                     Thursday - 8am to 7pm <br>
                                     Friday - 8am to 7pm <br>
-                                    Saturday - 8am to 7pm  
+                                    Saturday - 8am to 5pm  
                                 </p>
                             </div>
                         </div>
@@ -89,7 +89,7 @@
                                     Paris, France <br>
                                     Osio, Norway <br>
                                     Frankfurt, Germany <br>
-                                    Phillipine
+                                    Philippine, Italy
                                 </p>
                             </div>
                         </div>

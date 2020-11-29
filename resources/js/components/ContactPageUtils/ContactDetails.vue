@@ -7,21 +7,17 @@
                         <div class="col-md-6">
                             <div class="ConDet" data-aos="fade-up">
                                 <h3 style="color:#261c6a;">
-                                    <strong>Express Logistics and Courier Services</strong>
+                                    <strong>Marina Corps Logistics and Courier Services</strong>
                                 </h3>
                             </div>
                             <div class="ConDet" data-aos="fade-up">
-                                Feel free to contact us via phone or email at anytime you need help or have any question!
+                                Feel free to contact us at anytime you need help or have any question!
                             </div>
                             <div class="ConDet" data-aos="fade-up">
                                 <p>
                                     <strong><font-awesome-icon icon="envelope" /> Mail Us :</strong>
-                                    support@exlogcourier.com <br>
-                                    We usually reply within 24 hours 
-                                </p>
-                                <p>
-                                    <strong><font-awesome-icon icon="phone-alt" /> Call Us :</strong>
-                                    +44 7520635476
+                                    support@corpcourier-marina.com <br>
+                                    We usually reply within 12 hours 
                                 </p>
                             </div>
                             <div class="ConDet" data-aos="fade-up">
@@ -31,10 +27,9 @@
                                     </strong>
                                 </h4>
                                 <p>
-                                    Deanshanger, Milton Keynes MK19 6HT, UK<br>
-                                    Email: support@exlogcourier.com<br>
-                                    Email: info@exlogcourier.com<br>
-                                    Call:  +44 7520635476 
+                                    Maximilianstrasse 35a, Regus <br>
+                                    Maximilianstrasse GmBH & co.KG, 80539 Munich <br>
+                                    Email: support@corpcourier-marina.com<br>
                                 </p>
                             </div>
                             <div class="ConDet" data-aos="fade-up">
