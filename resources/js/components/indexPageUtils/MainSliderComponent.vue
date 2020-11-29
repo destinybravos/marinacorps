@@ -28,7 +28,7 @@ export default {
                     sub_caption:'Our Air Freight service provides top notch, hassle free and timely movement for all your consignments at very competitive rates.'
                 },
                 {
-                    image: '/img/truck_on_go.jpg', 
+                    image: '/img/navy.jpg',  
                     caption:'Courier Trucks on the go', 
                     sub_caption:'Need a fleet of trucks to transport containers from your manufacturing unit to the dock or airport? We are here for you!'},
             ],

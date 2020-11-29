@@ -33,6 +33,7 @@ Route::group(['prefix' => 'notification'], function () {
     Route::post('/updateparcel','ApiController@update_parcel');
     Route::post('/resetparcelstatus','ApiController@reset_parcel_shipping_status');
     Route::post('/deleteparcel','ApiController@delete_parcel');
+    Route::post('/applyleave', 'ApiController@applyleave');
  });
  Route::group(['prefix' => 'requests'], function () {
     Route::post('/quote', 'ApiController@request_quote');

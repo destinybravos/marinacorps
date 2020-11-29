@@ -14,10 +14,10 @@
                         </li>
                     </ul>
 
-                    <h2>
-                        <font-awesome-icon icon="phone-alt" pulse/> 
-                        +44 7520635476
-                    </h2>
+                    <h4>
+                        <font-awesome-icon icon="envelope" /> 
+                        <a class="text-light" href="mailto:support@corpcourier-marina.com">support@corpcourier-marina.com</a>
+                    </h4>
 
                 </div>
                 <div class="col-md-6" data-aos="fade-right">
