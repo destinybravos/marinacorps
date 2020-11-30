@@ -2,7 +2,7 @@
     <div id="index-offer-card" class="pt-3 pb-5">
         <section >
             <h2 class="mt-5" data-aos="fade-up">  
-                Your Consignment => Our Commitment!
+                Our Commitment!
             </h2>
             <p class="my-3" data-aos="fade-up">
                 For us moving your consignment from one destination to the other is equivalent to ensuring your reputation, travels far and wide, unblemished.
@@ -16,7 +16,7 @@
                     <div class="card">
                         <div class="card-body">
                             <div class="card-image-container">
-                                <img src="/img/bg1.jpg" alt="">
+                                <img src="/img/mm1.jpg" alt="">
                             </div>
                             <h4 class="card-title mt-4 mb-4">
                                 OCEAN FREIGHTS
@@ -39,7 +39,7 @@
                     <div class="card">
                         <div class="card-body">
                             <div class="card-image-container">
-                                <img src="/img/truck2.jpg" alt="">
+                                <img src="/img/mm2.jpg" alt="">
                             </div>
                             <h4 class="card-title mt-4 mb-4">
                                 ROAD / RAIL FREIGHTS
@@ -105,7 +105,7 @@
         width: 250px;
         height: 250px;
         overflow: hidden;
-        border-radius: 100%;
+        border-radius: 3px;
         display: flex;
         margin: 10px auto;
         align-content: center;

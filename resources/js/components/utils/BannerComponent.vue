@@ -31,7 +31,7 @@
         color: #261c6a;
     }
     #banner{
-        background-image: url('/img/bg1.jpg');
+        background-image: url('/img/m5.jpg');
         background-size: cover;
         background-position: right 50%;
         background-repeat: no-repeat;
