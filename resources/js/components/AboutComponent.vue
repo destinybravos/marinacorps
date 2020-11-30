@@ -10,7 +10,7 @@
 
                 <div class="row abtServiceRow">
                     <div class="col-md-6 mt-5" data-aos="fade-right">
-                         <img src="/img/bg-2.png" class="card-img-top">
+                         <img src="/img/m3.jpg" class="card-img-top">
                     </div>
                     <div class="col-md-6" data-aos="fade-left">
                         <h1 class="h1Text">

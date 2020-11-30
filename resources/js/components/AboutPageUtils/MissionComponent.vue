@@ -32,7 +32,7 @@
                             </div>
                         </div>
                         <div class="mt-5">
-                            <div class="row">
+                            <!-- <div class="row">
                                 <div class="col-4">
                                     <img src="/img/flight.png" class="iconImg" data-aos="zoom-in">
                                     <span class="spanText" data-aos="fade-left">Air Transports</span>
@@ -45,13 +45,13 @@
                                     <img src="/img/ship.png" class="iconImg" data-aos="zoom-in">
                                     <span  class="spanText" data-aos="fade-left">Sea Freight</span>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
                 <div class="col-md-5 mt-5" data-aos="zoom-in">
                     <div class="card cardImg">
-                        <img src="/img/truck_on_go.jpg" class="  card-img-top">
+                        <img src="/img/m1.jpg" class="  card-img-top">
                     </div>
                 </div>
             </div>
@@ -89,7 +89,7 @@
                         </p>
                     </div>
                     <div class="col-md-6" data-aos="fade-left">
-                        <img src="/img/bg3.jpg" alt=" " style="max-width:100%;">
+                        <img src="/img/m2.jpg" alt=" " style="max-width:100%;">
                     </div>
                 </div>
             </div>
