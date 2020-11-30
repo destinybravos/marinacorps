@@ -162,9 +162,6 @@
         padding: 7px 10px;
         color: #1a74bc;
     }
-    .lastDivP{
-        /* font-family: "Trebuchet MS", Helvetica, sans-serif; */
-    }
 
 
     @media screen and (max-width: 520px){
