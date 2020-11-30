@@ -40,4 +40,8 @@ Route::group(['prefix' => 'notification'], function () {
     Route::post('/fetch_all', 'ApiController@view_requests');
 });
 
+Route::group(['prefix' => 'applications'], function () {
+    Route::post('/fetch_all', 'ApiController@view_applications');
+});
+
 Route::post('/send_email', 'ApiController@send_email');

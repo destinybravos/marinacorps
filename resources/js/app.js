@@ -16,13 +16,13 @@ import { faFontAwesome, faFacebook, faTwitter, faTwitterSquare, faGoogle, faFace
 import { faUser, faEnvelope, faTachometerAlt, faLock, faSignInAlt, faKey, faUserLock, faTruck, faShippingFast,
     faClipboardList, faPlus, faCheckCircle, faTimesCircle, faCheck, faTimes, faPaperPlane, faCircleNotch, 
     faMapMarker, faDesktop, faSave, faEdit, faTrash, faTrashAlt, faEye, faPhone, faPhoneAlt, faUserPlus, 
-    faGlobe, faClock, faBars, faHome, faInfoCircle, faCogs, faFileAlt, faHeadset } from '@fortawesome/free-solid-svg-icons';
+    faGlobe, faClock, faBars, faHome, faInfoCircle, faCogs, faFileAlt, faHeadset, faSignOutAlt } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 library.add(faUser, faEnvelope, faTachometerAlt, faLock, faSignInAlt, faKey, faUserLock, faTruck, faShippingFast, faPhone, faPhoneAlt,
     faClipboardList, faPlus,  faCheckCircle, faTimesCircle, faCheck, faTimes, faPaperPlane, faCircleNotch, 
     faSave, faEdit, faTrash, faTrashAlt, faEye, faFontAwesome, faFacebook, faTwitter, faTwitterSquare, 
     faGoogle, faFacebookF, faVimeo, faMapMarker, faDesktop, faLinkedin, faLinkedinIn, faUserPlus, faGlobe, 
-    faClock, faBars, faHome, faInfoCircle, faCogs, faFileAlt, faHeadset);
+    faClock, faBars, faHome, faInfoCircle, faCogs, faFileAlt, faHeadset, faSignOutAlt);
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 /**

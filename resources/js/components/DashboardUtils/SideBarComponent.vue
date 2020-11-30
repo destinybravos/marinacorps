@@ -26,6 +26,18 @@
                         Contacts
                     </a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="" @click.prevent="changePage('applications')">
+                        <font-awesome-icon icon="edit" />
+                        Leave Applications
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="" @click.prevent="logoutUser()">
+                        <font-awesome-icon icon="sign-out-alt" />
+                        Logout
+                    </a>
+                </li>
             </ul>
         </nav>
     </div>
@@ -72,14 +84,18 @@
 </style>
 
 <script>
+let token = $('meta[name=csrf-token]').attr('content');
 export default {
     props:{
         currentPage: String
     },
     data(){
         return {
-
+            _token:''
         }
+    },
+    mounted(){
+        this._token = token;
     },
     methods:{
         changePage(page){
@@ -88,6 +104,15 @@ export default {
                 sideBar.toggleClass('open');
             }
             this.$emit('selectPage', page);
+        },
+        logoutUser(){
+            axios.post('/logout', this._token)
+            .then((e)=> { 
+                window.location.href = '/welcome';
+            })
+            .catch((e) => {
+                console.log(e);
+            })
         }
     }
 }

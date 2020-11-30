@@ -7,6 +7,7 @@
             <ContactManger v-if="currentPage === 'contact'"></ContactManger>
             <ParcelManager v-if="currentPage === 'parcel'"></ParcelManager>
             <RequestManager v-if="currentPage === 'request'"></RequestManager>
+            <applications-manager v-if="currentPage === 'applications'"></applications-manager>
         </div>
 
     </div>
@@ -29,6 +30,8 @@ import DashboardHomeComponent from "../components/DashboardUtils/DashboardHomeCo
 import ContactManger from "../components/DashboardUtils/ContactManger.vue";
 import ParcelManager from "../components/DashboardUtils/ParcelManager.vue";
 import RequestManager from "../components/DashboardUtils/RequestManager.vue";
+import ApplicationsManager from './DashboardUtils/ApplicationsManager.vue';
+
 
 // I Imported additional Parcel Receipt Component
 // import ParcelReceipt from "../components/DashboardUtils/ParcelReceipt.vue";
@@ -41,6 +44,7 @@ export default {
         ContactManger,
         DashboardHome : DashboardHomeComponent,
         // ParcelReceipt,
+        ApplicationsManager,
 
     },
     data(){

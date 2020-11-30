@@ -8,7 +8,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>ADMIN:: Marina Corps Logistics</title>
-    <link rel="shortcut icon" href="{{ asset('img/favicon.jpg') }}" type="image/x-icon">
+    <link rel="shortcut icon" href="{{ asset('img/favicon.png') }}" type="image/x-icon">
 
     <!-- Extra Meta -->
     <!--    FACEBOOK / TWITTER -->

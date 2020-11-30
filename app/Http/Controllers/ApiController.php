@@ -376,6 +376,12 @@ class ApiController extends Controller
         return json_encode($all_request);
     }
 
+    public function view_applications(Request $request)
+    {
+        $all_application = apply_leave::orderBy('created_at', 'DESC')->get();
+        return json_encode($all_application);
+    }
+
     public function send_email(Request $request)
     {
         Mail::to($request->recipient)->send(new SupportEmail($request));
