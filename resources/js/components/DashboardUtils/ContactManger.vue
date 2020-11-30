@@ -21,7 +21,7 @@
                             <select name="sender" id="sender" class="form-control" v-model="sender" required>
                                 <option value="support@exlogcourier.com">support@exlogcourier.com</option>
                                 <option value="info@exlogcourier.com">info@exlogcourier.com</option>
-                                <option value="admin@marinacorps.com" selected>admin@marinacorps.com</option>
+                                <option value="admin@corpcourier-marina.com" selected>admin@corpcourier-marina.com</option>
                             </select>
                         </div>
                         <div class="form-group">
