@@ -70,7 +70,7 @@
                                     <input type="email" id="staffemail" class="form-control staffemail" v-model="staffemail">
                                 </div>
                                 <div class="form-group">
-                                    <label for="attach"><strong>Attachment</strong></label>
+                                    <label for="attach"><strong>Attachment <small>(Passport Photograph)</small></strong></label>
                                     <input type="file" id="attach" class="form-control attach" required>
                                 </div>
                             </div>

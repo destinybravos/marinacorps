@@ -23,7 +23,7 @@
                                         </div>
                                         <div class="row">
                                             <div class="form-group col-md-12">
-                                                <input v-model="email" type="text" name="email" id="email" class="form-control" placeholder="Email Address" required>
+                                                <input v-model="email" type="email" name="email" id="email" class="form-control" placeholder="Email Address" required>
                                             </div>
                                         </div>
                                         <div class="row">
@@ -114,7 +114,7 @@
                                             </div>
                                             <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
                                             <div class="card-body">
-                                                The Express Logistics and Courier Services Tracking page provides up-to-date information on the location of your shipment. 
+                                                The Marina Corps Logistics and Courier Services Tracking page provides up-to-date information on the location of your shipment. 
                                                 Simply enter your trackind id (waybill number). 
                                                 <a href="/tracking">Click Here to Start Tracking</a>
                                             </div>
@@ -146,7 +146,7 @@
                                             </div>
                                             <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
                                             <div class="card-body">
-                                                A Transmacs Global Regional account is highly recommended if you ship frequently. This offers you 
+                                                A Marina Corps Regional account is highly recommended if you ship frequently. This offers you 
                                                 low rates, monthly billing and extended access to Transmacs Global services.
                                             </div>
                                             </div>
