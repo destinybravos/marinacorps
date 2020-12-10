@@ -30,13 +30,8 @@ class SupportEmail extends Mailable
      */
     public function build()
     {
-        return $this->from($this->request->sender)
-                    ->view('email.support', [
-                        'message'=>$this->request->message
-                        ])
-                    ->subject($this->request->subject);
-        // return $this->markdown('email.support', [
-        //     'message'=>$this->request->message
-        //     ])->from($this->request->sender)->subject($this->request->subject);
+        return $this->markdown('email.support', [
+            'message'=>$this->request->message
+            ])->from($this->request->sender)->subject($this->request->subject);
     }
 }

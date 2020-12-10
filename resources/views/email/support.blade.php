@@ -16,7 +16,7 @@ Thanks,<br>
             <tr>
                 <td>
                     <h4 style="background-color: #261c6a, text-align:center; color:white;">
-                        <img src="https://exlogcourier.com/img/exlog_logo.jpg" alt="Express Logistics and Courier Services." style="display:inline-block; max-height:50px;">
+                        <img src="https://corpcourier-marina.com/img/logo.png" alt="Express Logistics and Courier Services." style="display:inline-block; max-height:50px;">
                         
                     </h4>
                 </td>
@@ -33,7 +33,7 @@ Thanks,<br>
             <tr>
                 <td>
                     <div style="background-color: #e96901, text-align:center; color:white;">
-                        <small>from: exlogcourier.com</small>
+                        <small>from: https://corpcourier-marina.com</small>
                     </div>
                 </td>
             </tr>
