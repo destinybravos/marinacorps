@@ -72,7 +72,7 @@ export default {
                 //No Configuration for now!
             },
             recipient:'',
-            sender:'support@exlogcourier.com',
+            sender:'support@corpcourier-marina.com',
             subject:'',
             message:'',
             processing:false,
@@ -93,7 +93,7 @@ export default {
     methods: {
         sendEmail(){
             if(this.message == '' || this.recipient == ''){
-                this.modal_msg = 'Honourable Kavor! Abeg, Enter all the informate before you try send!';
+                this.modal_msg = 'Please, Enter all the neccessary information before sending!';
                 // this.modal_msg = 'Please enter message and other information before sending';
                 this.modal_type = 'error';
                 this.modalShowState = true;
@@ -114,7 +114,7 @@ export default {
                     this.processing = false;
                     this.sending = 'Not sent';
                     // this.modal_msg = 'Email was not sent due to an unexpected that error occured!';
-                    this.modal_msg = 'Honourable Kavor! Yawa gas o, email no gree send because one error wage am o!';
+                    this.modal_msg = 'An unexpected error occured while trying to send email! Please refresh and try again.';
                     this.modal_type = 'error';
                     this.modalShowState = true;
                     console.log(error);
@@ -122,7 +122,7 @@ export default {
             }
         },
         send_response(response){
-            this.modal_msg = 'Honourable Kavor! E don send o!';
+            this.modal_msg = 'Message sent successfully!';
             this.modal_type = 'success';
             this.modalShowState = true;
             this.processing = false;
@@ -131,7 +131,7 @@ export default {
         },
         clearForm(){
             this.recipient = '',
-            this.sender = 'support@exlogcourier.com',
+            this.sender = 'support@corpcourier-marina.com',
             this.subject = '',
             this.message = '',
             this.$refs.email_frm.reset();
